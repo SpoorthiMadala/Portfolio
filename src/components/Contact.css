@@ -1,0 +1,12 @@
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
