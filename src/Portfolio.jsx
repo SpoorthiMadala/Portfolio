@@ -51,26 +51,37 @@ Linkedin: linkedin.com/in/madalaspoorthi
 Github: https://github.com/SpoorthiMadala
 
 EXPERIENCE:
-• GEN AI intern at IBM (May 2025 - June 2025)
+• Machine Learning with Social work intern - Suvidha Foundation (July 2025 - Ongoing)
 
 SKILLS:
-• HTML, CSS, Java Script, MERN, Tailwind CSS
+• HTML, CSS, Java Script, MERN, Bootstrap
 • Python, Java, C/C++
 • Data Structures and Algorithms, OOPS, CS Concepts
-• MY SQL, Git, Git Hub
+• MY SQL, Git, Git Hub, Postman
 • Artificila Intelligence, Machine Learning, Deep learning, Natural Language Processing, Generative AI
 
 EDUCATION:
 • Bachelor's in Computer Science
 • Vellore Institute of Technology (2023 - 2027)
-• CGPA : 9.27
+• CGPA : 9.32
 --------------------------------------------------
 • Intermediate
 • Narayana Institutions
 • 96.8%
 
 PROJECTS:
-• 
+• title: Sentiment Analysis with LSTM
+  description: Deep learning-based movie review sentiment classifier using LSTM architecture and Keras.
+  tech: Python, TensorFlow/Keras, NLTK, NumPy, Pandas, Scikit-learn
+  github: https://github.com/SpoorthiMadala/Sentiment-Analysis-LSTM
+• title: MERN Marketplace
+  description: A full-stack marketplace web application enabling users to buy and sell products with seller contact visibility.
+  tech: MongoDB, Express.js, React, Node.js
+  github: https://github.com/SpoorthiMadala/mern-marketplace
+• title: "AI Story Generator using Transformers
+  description: An AI-powered web application that generates creative short stories from user prompts using Transformer models.
+  tech: Python, Transformers, Hugging Face, Streamlit
+  github: https://github.com/SpoorthiMadala/Story-Generator-Transformers
 
 
 
@@ -332,7 +343,7 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
                 isDark ? 'text-white' : 'text-gray-800'
               }`}>Web Development</h3>
               <div className="space-y-3">
-                {['HTML5','CSS3','JavaScript', 'MERN','Tailwind CSS'].map((skill) => (
+                {['HTML5','CSS3','JavaScript', 'MERN','Bootstarp'].map((skill) => (
                   <div key={skill} className="flex items-center">
                     <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                     <span className={`transition-colors duration-300 ${
@@ -366,7 +377,7 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
                 isDark ? 'text-white' : 'text-gray-800'
               }`}>Tools & Others</h3>
               <div className="space-y-3">
-                {['Git', 'Git Hub','MY SQL'].map((skill) => (
+                {['Git', 'Git Hub','MY SQL','Postman'].map((skill) => (
                   <div key={skill} className="flex items-center">
                     <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
                     <span className={`transition-colors duration-300 ${
@@ -391,17 +402,29 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {[
         {
-          title: "Sentiment Analysis",
-          description: "A Sentiment analysis model using LSTM",
-          tech: ["Machine Learning", "Deep Learning", "NLP", "Python Libraries", "Tensorflow-keras"],
-          github: "https://github.com/SpoorthiMadala/Sentiment-Analysis-LSTM.git"
-        },
+  title: "Sentiment Analysis with LSTM",
+  description: "Deep learning-based movie review sentiment classifier using LSTM architecture and Keras.",
+  tech: ["Python", "TensorFlow/Keras", "NLTK", "NumPy", "Pandas","Scikit-learn"],
+  github: "https://github.com/SpoorthiMadala/Sentiment-Analysis-LSTM",
+ 
+}
+,
         {
-          title: "Task Management App",
-          description: "A collaborative task management tool with real-time updates using MERN and AI",
-          tech: ["React", "Mongodb", "Node JS", "Express", "AI", "Open AI"],
-          github: "https://github.com/SpoorthiMadala/Task-Manager-AI.git"
-        }
+  title: "MERN Marketplace",
+  description: "A full-stack marketplace web application enabling users to buy and sell products with seller contact visibility.",
+  tech: ["MongoDB", "Express.js", "React", "Node.js"],
+  github: "https://github.com/SpoorthiMadala/mern-marketplace",
+
+}
+,
+        {
+  title: "AI Story Generator using Transformers",
+  description: "An AI-powered web application that generates creative short stories from user prompts using Transformer models.",
+  tech: ["Python", "Transformers", "Hugging Face", "Streamlit"],
+  github: "https://github.com/SpoorthiMadala/Story-Generator-Transformers",
+ 
+}
+
       ].map((project, index) => (
         <div key={index} className={`rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 ${
           isDark ? 'bg-gray-700' : 'bg-gray-50'
@@ -453,10 +476,10 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
           <div className="space-y-8">
             {[
               {
-                title: "GEN AI Intern",
-                company: "IBM",
-                period: "May 2025 - June 2025",
-                description: "Completed a Generative AI internship at IBM, where I worked on developing and fine-tuning large language model (LLM) applications using cutting-edge technologies such as Hugging Face and watsonx.ai. Gained hands-on experience in building RAG (Retrieval-Augmented Generation) pipelines, prompt engineering, and integrating vector databases like FAISS for semantic search and context-aware responses. Contributed to designing and evaluating AI prototypes focused on domain-specific problem solving, while adhering to IBM’s Responsible AI principles. This experience enhanced my skills in LLM deployment, model evaluation, and practical application of Generative AI in real-world enterprise scenarios."
+                title: "Machine Learning with Social work intern",
+                company: "Suvidha Foundation",
+                period: "July 2025 - Ongoing",
+                description: "Machine Learning with Social work internship at Suvidha Foundation, where I worked on developing and fine-tuning large language model (LLM) applications using cutting-edge technologies such as Hugging Face. Gained hands-on experience in building RAG (Retrieval-Augmented Generation) pipelines, prompt engineering, and integrating vector databases like FAISS for semantic search and context-aware responses. Contributed to designing and evaluating AI prototypes focused on domain-specific problem solving. This experience enhanced my skills in LLM deployment, model evaluation, and practical application of AI in real-world enterprise scenarios."
               },
               
             ].map((exp, index) => (
