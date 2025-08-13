@@ -465,47 +465,7 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
 </section>
 
 
-      {/* Experience Section */}
-      <section id="experience" className={`py-20 transition-colors duration-300 ${
-        isDark ? 'bg-gray-900' : 'bg-gray-50'
-      }`}>
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className={`text-3xl font-bold text-center mb-12 transition-colors duration-300 ${
-            isDark ? 'text-white' : 'text-gray-800'
-          }`}>Experience</h2>
-          <div className="space-y-8">
-            {[
-              {
-                title: "Machine Learning with Social work intern",
-                company: "Suvidha Foundation",
-                period: "July 2025 - Ongoing",
-                description: "Machine Learning with Social work internship at Suvidha Foundation, where I worked on developing and fine-tuning large language model (LLM) applications using cutting-edge technologies such as Hugging Face. Gained hands-on experience in building RAG (Retrieval-Augmented Generation) pipelines, prompt engineering, and integrating vector databases like FAISS for semantic search and context-aware responses. Contributed to designing and evaluating AI prototypes focused on domain-specific problem solving. This experience enhanced my skills in LLM deployment, model evaluation, and practical application of AI in real-world enterprise scenarios."
-              },
-              
-            ].map((exp, index) => (
-              <div key={index} className={`p-6 rounded-lg shadow-lg transition-colors duration-300 ${
-                isDark ? 'bg-gray-800' : 'bg-white'
-              }`}>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <div>
-                    <h3 className={`text-xl font-semibold transition-colors duration-300 ${
-                      isDark ? 'text-white' : 'text-gray-800'
-                    }`}>{exp.title}</h3>
-                    <p className="text-blue-600 font-medium">{exp.company}</p>
-                  </div>
-                  <span className={`text-sm mt-2 md:mt-0 transition-colors duration-300 ${
-                    isDark ? 'text-gray-400' : 'text-gray-500'
-                  }`}>{exp.period}</span>
-                </div>
-                <p className={`transition-colors duration-300 ${
-                  isDark ? 'text-gray-300' : 'text-gray-600'
-                }`}>{exp.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+    
       {/* Contact Section */}
       <section id="contact" className={`py-20 transition-colors duration-300 ${
         isDark ? 'bg-gray-800' : 'bg-white'
@@ -631,3 +591,4 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
 };
 
 export {Portfolio,ThemeProvider} ;
+
