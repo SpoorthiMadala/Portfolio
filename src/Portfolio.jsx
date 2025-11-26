@@ -50,15 +50,12 @@ Phone: +91 8143222032
 Linkedin: linkedin.com/in/madalaspoorthi
 Github: https://github.com/SpoorthiMadala
 
-EXPERIENCE:
-• Machine Learning with Social work intern - Suvidha Foundation (July 2025 - Ongoing)
-
 SKILLS:
 • HTML, CSS, Java Script, MERN, Bootstrap
 • Python, Java, C/C++
 • Data Structures and Algorithms, OOPS, CS Concepts
-• MY SQL, Git, Git Hub, Postman
-• Artificila Intelligence, Machine Learning, Deep learning, Natural Language Processing, Generative AI
+• MY SQL, MongoDB, Git, Git Hub, Postman
+• Artificila Intelligence, Machine Learning, Deep learning, Natural Language Processing, Data Science 
 
 EDUCATION:
 • Bachelor's in Computer Science
@@ -70,14 +67,14 @@ EDUCATION:
 • 96.8%
 
 PROJECTS:
-• title: Sentiment Analysis with LSTM
-  description: Deep learning-based movie review sentiment classifier using LSTM architecture and Keras.
-  tech: Python, TensorFlow/Keras, NLTK, NumPy, Pandas, Scikit-learn
-  github: https://github.com/SpoorthiMadala/Sentiment-Analysis-LSTM
-• title: MERN Marketplace
-  description: A full-stack marketplace web application enabling users to buy and sell products with seller contact visibility.
-  tech: MongoDB, Express.js, React, Node.js
-  github: https://github.com/SpoorthiMadala/mern-marketplace
+• title: MERN Chat Website — Real-time Chat Application
+  description: Built a real-time chat system using MERN stack + Socket.IO, supporting instant messaging and live online presence.
+  tech: MERN, Socket.IO
+  github: https://github.com/SpoorthiMadala/MERN-Realtime-chat-website.git
+• title: AI Image Generator
+  description: Built a full-stack AI image generator using MongoDB, Express, React, and Node.js, integrated with an AI image-generation API to convert text prompts into images.
+  tech: MERN, AI (Text-to-Image)
+  github: https://github.com/SpoorthiMadala/MERN-Text-to-Image.git
 • title: "AI Story Generator using Transformers
   description: An AI-powered web application that generates creative short stories from user prompts using Transformer models.
   tech: Python, Transformers, Hugging Face, Streamlit
@@ -103,7 +100,6 @@ PROJECTS:
     { id: 'about', label: 'About Me' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'experience', label: 'Experience' },
     { id: 'contact', label: 'Contact' }
   ];
 
@@ -360,7 +356,7 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
                 isDark ? 'text-white' : 'text-gray-800'
               }`}>Artificial Intelligence</h3>
               <div className="space-y-3">
-                {['Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'NLP', 'GEN AI'].map((skill) => (
+                {['Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'NLP', 'Data Science'].map((skill) => (
                   <div key={skill} className="flex items-center">
                     <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                     <span className={`transition-colors duration-300 ${
@@ -375,9 +371,9 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
             }`}>
               <h3 className={`text-xl font-semibold mb-4 transition-colors duration-300 ${
                 isDark ? 'text-white' : 'text-gray-800'
-              }`}>Tools & Others</h3>
+              }`}>Databases, Tools & Others</h3>
               <div className="space-y-3">
-                {['Git', 'Git Hub','MY SQL','Postman'].map((skill) => (
+                {['MySQL','MongoDB','Git', 'Git Hub','Postman'].map((skill) => (
                   <div key={skill} className="flex items-center">
                     <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
                     <span className={`transition-colors duration-300 ${
@@ -402,18 +398,18 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {[
         {
-  title: "Sentiment Analysis with LSTM",
-  description: "Deep learning-based movie review sentiment classifier using LSTM architecture and Keras.",
-  tech: ["Python", "TensorFlow/Keras", "NLTK", "NumPy", "Pandas","Scikit-learn"],
+  title: "MERN Chat Website — Real-time Chat Application",
+  description: "Built a real-time chat system using MERN stack + Socket.IO, supporting instant messaging and live online presence.",
+  tech: ["MERN", "Socket.IO"],
   github: "https://github.com/SpoorthiMadala/Sentiment-Analysis-LSTM",
  
 }
 ,
         {
-  title: "MERN Marketplace",
-  description: "A full-stack marketplace web application enabling users to buy and sell products with seller contact visibility.",
-  tech: ["MongoDB", "Express.js", "React", "Node.js"],
-  github: "https://github.com/SpoorthiMadala/mern-marketplace",
+  title: "AI Image Generator",
+  description: "Built a full-stack AI image generator using MongoDB, Express, React, and Node.js, integrated with an AI image-generation API to convert text prompts into images.",
+  tech: ["MERN", "AI (Text-to-Image)"],
+  github: "https://github.com/SpoorthiMadala/MERN-Realtime-chat-website.git",
 
 }
 ,
@@ -591,4 +587,5 @@ intersection of AI and web technologies, leveraging my skills to develop scalabl
 };
 
 export {Portfolio,ThemeProvider} ;
+
 
